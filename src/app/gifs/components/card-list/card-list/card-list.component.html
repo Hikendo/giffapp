@@ -1,19 +1,11 @@
 
   <div class="container">
     <div class="row m-2">
-      <!-- Tarjeta 1 -->
-      <div *ngFor="let gif of gifs" class="col-md-4 mb-3">
-        <div class="card">
-          <img [src]="gif.images.downsized_medium.url"
-          class="card-img-top"
-          alt="{{gif.title}}">
-          <div class="card-body">
-            <h5 class="card-title">{{gif.title}}</h5>
-            <p class="card-text">{{gif.alt_text}}</p>
+      <gif-card *ngFor="let gif of gifs" [gif]="gif" class="col-md-4 mb-3">
 
-          </div>
-        </div>
-      </div>
+      </gif-card>
+      <!-- Tarjeta 1 -->
+
 
     </div>
   </div>
