@@ -1,0 +1,17 @@
+<!-- sidebar.component.html -->
+  <div class="bg-dark border-right p-3" id="sidebar">
+    <h3 class="sidebar-heading text-white">Gifs App </h3>
+    <hr>
+    <div class="list-group list-reset">
+      <a *ngFor="let tagList of gifsList"  (click)="searchTag(tagList)"
+      class="list-group-item list-group-item-action bg-light">
+      {{tagList | titlecase}}</a>
+
+
+    </div>
+
+  </div>
+
+
+
+

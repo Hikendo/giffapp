@@ -1,0 +1,9 @@
+{
+    "editorconfig.template": "",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.renderFinalNewline": "off",
+    "editor.acceptSuggestionOnEnter": "on",
+    "workbench.editor.autoLockGroups": {
+        "imagePreview.previewEditor": true
+    }
+}
